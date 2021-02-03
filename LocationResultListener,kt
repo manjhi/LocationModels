@@ -1,0 +1,3 @@
+interface LocationResultListener {
+    fun getLocation(location: Location)
+}
