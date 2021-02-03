@@ -1,0 +1,13 @@
+
+        const val PERMISSION_DISPATCHER = "4.8.0"
+
+   const val PERMISSION_DISPATCHER =
+        "org.permissionsdispatcher:permissionsdispatcher-processor:${Versions.PERMISSION_DISPATCHER}"
+
+    const val PERMISSION_DISPATCHER1 =
+        "org.permissionsdispatcher:permissionsdispatcher:${Versions.PERMISSION_DISPATCHER}"
+        
+        
+         kapt(Libraries.PERMISSION_DISPATCHER)
+
+    api(Libraries.PERMISSION_DISPATCHER1)
